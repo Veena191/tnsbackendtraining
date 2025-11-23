@@ -1,0 +1,7 @@
+package com.avn.tns.exceptiondemo;
+
+public class InvalidAge extends Exception{
+	public InvalidAge (String msg) {
+		super(msg);
+	}
+}
